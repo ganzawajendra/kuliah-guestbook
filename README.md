@@ -25,5 +25,14 @@ Ikuti langkah-langkah di bawah ini di terminal Anda untuk menyiapkan dan menjala
 Unduh kode proyek ke komputer lokal Anda:
 
 ```bash
-git clone [URL_REPOSITORI_ANDA]
-cd [NAMA_FOLDER_PROYEK]
+git clone https://github.com/ganzawajendra/kuliah-guestbook.git
+cd guestbook
+composer install
+# Membuat file .env dari template
+cp .env.example .env
+# Menghasilkan Application Key
+php artisan key:generate
+
+php artisan serve
+
+
