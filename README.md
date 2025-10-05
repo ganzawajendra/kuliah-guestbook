@@ -2,7 +2,7 @@
 
 Proyek sederhana Guestbook (Buku Tamu) yang dibangun menggunakan **Laravel**.
 
-Aplikasi ini mendemonstrasikan fungsionalitas dasar seperti menampilkan data statis dari Controller dan memproses input form tanpa menggunakan database.
+Aplikasi ini mendemonstrasikan fungsionalitas dasar seperti menampilkan data statis dari Controller dan memproses input form tanpa menggunakan database. Website untuk memnuhi tugas dari mata kuliah "Pemrograman Berbasis Framework"
 
 ---
 
