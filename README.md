@@ -27,12 +27,25 @@ Unduh kode proyek ke komputer lokal Anda:
 ```bash
 git clone https://github.com/ganzawajendra/kuliah-guestbook.git
 cd guestbook
+```
+### 2. Instalasi Dependencies
+```bash
 composer install
+```
+### 3. Konfigurasi Environment
+```bash
 # Membuat file .env dari template
 cp .env.example .env
 # Menghasilkan Application Key
 php artisan key:generate
-
+```
+### 4. Jalankan Server Development
+```bash
 php artisan serve
+```
+### 5. Akses Aplikasi
+```bash
+http://127.0.0.1:8000/guestbook
+```
 
 
